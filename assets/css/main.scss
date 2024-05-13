@@ -11,3 +11,7 @@ search: false
 .page__meta .page__date {
   display: none;
 }
+
+.archive__item-title.no_toc a {
+  text-decoration: none; /* 포스트 목록 페이지 제목 링크 밑줄 제거 */
+}
